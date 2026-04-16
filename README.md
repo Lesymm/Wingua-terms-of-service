@@ -1,6 +1,10 @@
 # Wingua Terms of Service (GitHub Pages)
 
-Public site for **https://lesymm.github.io/Wingua-terms-of-service/** (default URL used by the Wingua app).
+**GitHub repository:** [https://github.com/Lesymm/Wingua-terms-of-service](https://github.com/Lesymm/Wingua-terms-of-service)
+
+**Live site (Pages):** [https://lesymm.github.io/Wingua-terms-of-service/](https://lesymm.github.io/Wingua-terms-of-service/)
+
+The published legal text is **`index.html`** at the repo root (not this README). Keep **`.nojekyll`** in the repo so GitHub Pages serves `index.html` instead of Jekyll/README.
 
 ## Create the GitHub repo and push
 
@@ -17,12 +21,12 @@ gh repo create Wingua-terms-of-service --public --source=. --remote=origin --pus
 If the repo already exists on GitHub:
 
 ```bash
-git remote add origin https://github.com/lesymm/Wingua-terms-of-service.git
+git remote add origin https://github.com/Lesymm/Wingua-terms-of-service.git
 git branch -M main
 git push -u origin main
 ```
 
-Replace `lesymm` with your GitHub username or org if different.
+GitHub resolves `Lesymm` and `lesymm` to the same account; the canonical repo URLs use **`Lesymm`**. The Pages hostname stays **`lesymm.github.io`** (lowercase).
 
 ## Enable GitHub Pages
 
